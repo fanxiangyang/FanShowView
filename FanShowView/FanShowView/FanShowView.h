@@ -12,7 +12,7 @@
  
  *  注意：可以重写此类，自定义显示和动画
     1.需重写文本区域self.fan_contentView: -(void)configUIWithData（包含动画）
-    3.重写消息动画方法 : -(void)removeSelfView;
+    3.重写消失动画方法 : -(void)removeSelfView;
     4.事件响应代理要调用：-(void)showViewDidSeletedIndex:(NSInteger)seletedIndex;
     5.最后一点，别忘记执行:[super **];
  
@@ -88,13 +88,13 @@ typedef NS_ENUM(NSInteger,FanShowViewStyle) {
 -(void)show;
 
 #pragma mark - 一般内部调用方法（或子类重写）
--(void)configUIWithData;
--(void)removeSelfView;
--(void)refreshUIWithData:(id)data;
+-(void)configUIWithData;//创建UI,需要重写
+-(void)removeSelfView;//移除View，可以加动画移除
+-(void)refreshUIWithData:(id)data;//暂时没有用（空方法）
 
 
--(void)showViewDidSeletedIndex:(NSInteger)seletedIndex;
--(void)shareBtnClick:(UIButton*)btn;
+-(void)showViewDidSeletedIndex:(NSInteger)seletedIndex;//用来选中按钮回调
+-(void)shareBtnClick:(UIButton*)btn;//按钮单击事件，tag-100
 
 
 #pragma mark - 辅助方法
