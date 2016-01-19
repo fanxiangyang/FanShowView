@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)alertViewClick:(id)sender;
 
+
+- (IBAction)actionSheetClick:(UIButton *)sender;
+- (IBAction)shareViewClick:(id)sender;
 
 @end
 

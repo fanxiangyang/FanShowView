@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		661068D31C46888A00076557 /* FanShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 661068D21C46888A00076557 /* FanShowAlertView.m */; };
+		661784AE1C4DDD4400A0CB4A /* FanShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 661784AD1C4DDD4400A0CB4A /* FanShareView.m */; };
+		661784B91C4DDE7A00A0CB4A /* Email_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661784B01C4DDE7A00A0CB4A /* Email_share@2x.png */; };
+		661784BA1C4DDE7A00A0CB4A /* FaceBook_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661784B11C4DDE7A00A0CB4A /* FaceBook_share@2x.png */; };
+		661784BB1C4DDE7A00A0CB4A /* image_tencent_qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661784B21C4DDE7A00A0CB4A /* image_tencent_qq@2x.png */; };
+		661784BC1C4DDE7A00A0CB4A /* image_tencent_weibo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661784B31C4DDE7A00A0CB4A /* image_tencent_weibo@2x.png */; };
+		661784BD1C4DDE7A00A0CB4A /* QQKJ_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661784B41C4DDE7A00A0CB4A /* QQKJ_share@2x.png */; };
+		661784BE1C4DDE7A00A0CB4A /* Sina_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661784B51C4DDE7A00A0CB4A /* Sina_share@2x.png */; };
+		661784BF1C4DDE7A00A0CB4A /* Twitter_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661784B61C4DDE7A00A0CB4A /* Twitter_share@2x.png */; };
+		661784C01C4DDE7A00A0CB4A /* WeiXin_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661784B71C4DDE7A00A0CB4A /* WeiXin_share@2x.png */; };
+		661784C11C4DDE7A00A0CB4A /* WeiXinQ_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661784B81C4DDE7A00A0CB4A /* WeiXinQ_share@2x.png */; };
 		661AEEBB1C463DFF007CD734 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 661AEEBA1C463DFF007CD734 /* main.m */; };
 		661AEEBE1C463DFF007CD734 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661AEEBD1C463DFF007CD734 /* AppDelegate.m */; };
 		661AEEC11C463DFF007CD734 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661AEEC01C463DFF007CD734 /* ViewController.m */; };
@@ -15,6 +26,8 @@
 		661AEEC91C463DFF007CD734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661AEEC71C463DFF007CD734 /* LaunchScreen.storyboard */; };
 		661AEED41C463DFF007CD734 /* FanShowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 661AEED31C463DFF007CD734 /* FanShowViewTests.m */; };
 		661AEEDF1C463DFF007CD734 /* FanShowViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 661AEEDE1C463DFF007CD734 /* FanShowViewUITests.m */; };
+		661AEEEF1C463EAB007CD734 /* FanShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 661AEEEE1C463EAB007CD734 /* FanShowView.m */; };
+		66D1B1BD1C4CE86B00533B47 /* FanActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D1B1BC1C4CE86B00533B47 /* FanActionSheetView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		661068D11C46888A00076557 /* FanShowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanShowAlertView.h; sourceTree = "<group>"; };
+		661068D21C46888A00076557 /* FanShowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanShowAlertView.m; sourceTree = "<group>"; };
+		661784AC1C4DDD4400A0CB4A /* FanShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanShareView.h; sourceTree = "<group>"; };
+		661784AD1C4DDD4400A0CB4A /* FanShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanShareView.m; sourceTree = "<group>"; };
+		661784B01C4DDE7A00A0CB4A /* Email_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Email_share@2x.png"; sourceTree = "<group>"; };
+		661784B11C4DDE7A00A0CB4A /* FaceBook_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FaceBook_share@2x.png"; sourceTree = "<group>"; };
+		661784B21C4DDE7A00A0CB4A /* image_tencent_qq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_tencent_qq@2x.png"; sourceTree = "<group>"; };
+		661784B31C4DDE7A00A0CB4A /* image_tencent_weibo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_tencent_weibo@2x.png"; sourceTree = "<group>"; };
+		661784B41C4DDE7A00A0CB4A /* QQKJ_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQKJ_share@2x.png"; sourceTree = "<group>"; };
+		661784B51C4DDE7A00A0CB4A /* Sina_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sina_share@2x.png"; sourceTree = "<group>"; };
+		661784B61C4DDE7A00A0CB4A /* Twitter_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Twitter_share@2x.png"; sourceTree = "<group>"; };
+		661784B71C4DDE7A00A0CB4A /* WeiXin_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WeiXin_share@2x.png"; sourceTree = "<group>"; };
+		661784B81C4DDE7A00A0CB4A /* WeiXinQ_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WeiXinQ_share@2x.png"; sourceTree = "<group>"; };
 		661AEEB61C463DFE007CD734 /* FanShowView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanShowView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		661AEEBA1C463DFF007CD734 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		661AEEBC1C463DFF007CD734 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +77,10 @@
 		661AEEDA1C463DFF007CD734 /* FanShowViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanShowViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		661AEEDE1C463DFF007CD734 /* FanShowViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanShowViewUITests.m; sourceTree = "<group>"; };
 		661AEEE01C463DFF007CD734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661AEEED1C463EAB007CD734 /* FanShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanShowView.h; sourceTree = "<group>"; };
+		661AEEEE1C463EAB007CD734 /* FanShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanShowView.m; sourceTree = "<group>"; };
+		66D1B1BB1C4CE86B00533B47 /* FanActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanActionSheetView.h; sourceTree = "<group>"; };
+		66D1B1BC1C4CE86B00533B47 /* FanActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanActionSheetView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +108,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		661784AF1C4DDE7A00A0CB4A /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				661784B01C4DDE7A00A0CB4A /* Email_share@2x.png */,
+				661784B11C4DDE7A00A0CB4A /* FaceBook_share@2x.png */,
+				661784B21C4DDE7A00A0CB4A /* image_tencent_qq@2x.png */,
+				661784B31C4DDE7A00A0CB4A /* image_tencent_weibo@2x.png */,
+				661784B41C4DDE7A00A0CB4A /* QQKJ_share@2x.png */,
+				661784B51C4DDE7A00A0CB4A /* Sina_share@2x.png */,
+				661784B61C4DDE7A00A0CB4A /* Twitter_share@2x.png */,
+				661784B71C4DDE7A00A0CB4A /* WeiXin_share@2x.png */,
+				661784B81C4DDE7A00A0CB4A /* WeiXinQ_share@2x.png */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
 		661AEEAD1C463DFE007CD734 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +147,8 @@
 		661AEEB81C463DFF007CD734 /* FanShowView */ = {
 			isa = PBXGroup;
 			children = (
+				661784AF1C4DDE7A00A0CB4A /* Share */,
+				661AEEEC1C463E55007CD734 /* FanShowView */,
 				661AEEBC1C463DFF007CD734 /* AppDelegate.h */,
 				661AEEBD1C463DFF007CD734 /* AppDelegate.m */,
 				661AEEBF1C463DFF007CD734 /* ViewController.h */,
@@ -138,6 +186,21 @@
 				661AEEE01C463DFF007CD734 /* Info.plist */,
 			);
 			path = FanShowViewUITests;
+			sourceTree = "<group>";
+		};
+		661AEEEC1C463E55007CD734 /* FanShowView */ = {
+			isa = PBXGroup;
+			children = (
+				661AEEED1C463EAB007CD734 /* FanShowView.h */,
+				661AEEEE1C463EAB007CD734 /* FanShowView.m */,
+				661068D11C46888A00076557 /* FanShowAlertView.h */,
+				661068D21C46888A00076557 /* FanShowAlertView.m */,
+				66D1B1BB1C4CE86B00533B47 /* FanActionSheetView.h */,
+				66D1B1BC1C4CE86B00533B47 /* FanActionSheetView.m */,
+				661784AC1C4DDD4400A0CB4A /* FanShareView.h */,
+				661784AD1C4DDD4400A0CB4A /* FanShareView.m */,
+			);
+			path = FanShowView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +307,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				661AEEC91C463DFF007CD734 /* LaunchScreen.storyboard in Resources */,
+				661784BE1C4DDE7A00A0CB4A /* Sina_share@2x.png in Resources */,
+				661784B91C4DDE7A00A0CB4A /* Email_share@2x.png in Resources */,
+				661784BC1C4DDE7A00A0CB4A /* image_tencent_weibo@2x.png in Resources */,
+				661784BA1C4DDE7A00A0CB4A /* FaceBook_share@2x.png in Resources */,
 				661AEEC61C463DFF007CD734 /* Assets.xcassets in Resources */,
+				661784BF1C4DDE7A00A0CB4A /* Twitter_share@2x.png in Resources */,
+				661784BB1C4DDE7A00A0CB4A /* image_tencent_qq@2x.png in Resources */,
+				661784C11C4DDE7A00A0CB4A /* WeiXinQ_share@2x.png in Resources */,
+				661784C01C4DDE7A00A0CB4A /* WeiXin_share@2x.png in Resources */,
 				661AEEC41C463DFF007CD734 /* Main.storyboard in Resources */,
+				661784BD1C4DDE7A00A0CB4A /* QQKJ_share@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +343,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				661AEEC11C463DFF007CD734 /* ViewController.m in Sources */,
+				661AEEEF1C463EAB007CD734 /* FanShowView.m in Sources */,
+				66D1B1BD1C4CE86B00533B47 /* FanActionSheetView.m in Sources */,
+				661068D31C46888A00076557 /* FanShowAlertView.m in Sources */,
 				661AEEBE1C463DFF007CD734 /* AppDelegate.m in Sources */,
 				661AEEBB1C463DFF007CD734 /* main.m in Sources */,
+				661784AE1C4DDD4400A0CB4A /* FanShareView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FanShowView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanShowView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FanShowView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanShowView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +576,7 @@
 				661AEEE51C463DFF007CD734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		661AEEE61C463DFF007CD734 /* Build configuration list for PBXNativeTarget "FanShowViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +585,7 @@
 				661AEEE81C463DFF007CD734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		661AEEE91C463DFF007CD734 /* Build configuration list for PBXNativeTarget "FanShowViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +594,7 @@
 				661AEEEB1C463DFF007CD734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
